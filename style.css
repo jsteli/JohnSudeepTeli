@@ -21,6 +21,28 @@ section#education table th {
 section#education table tr:nth-child(even) {
     background-color: #F5F5F5; /* Match the body's background color */
 }
-@media screen and (max-width: 768px) {
-    /* Styles for screens with a maximum width of 768px (e.g., mobile devices) */
+/* Mobile-specific styles */
+@media screen and (max-width: 600px) {
+    /* Add your mobile-specific styles here */
+    body {
+        font-size: 16px; /* Example font size for mobile */
+    }
+
+    header {
+        padding: 10px; /* Example header padding for mobile */
+    }
+
+    nav ul {
+        padding: 5px; /* Example padding for navigation on mobile */
+    }
+
+    section {
+        padding: 10px; /* Example padding for sections on mobile */
+    }
+
+    h2 {
+        font-size: 1.2rem; /* Example font size for mobile headers */
+    }
+
+    /* Add any other mobile-specific styles you need */
 }
