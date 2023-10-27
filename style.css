@@ -1,0 +1,23 @@
+/* Add margins to the Education section table */
+section#education table {
+    margin: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section#education table, section#education table th, section#education table td {
+    border: 1px solid #EEE; /* Match the background color of the body */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style the table headers with a blue background color */
+section#education table th {
+    background-color: #00AEEF; /* Change to blue */
+    color: #EEE; /* Match the text color with the body's text color */
+}
+
+/* Style alternate rows for better readability */
+section#education table tr:nth-child(even) {
+    background-color: #F5F5F5; /* Match the body's background color */
+}
