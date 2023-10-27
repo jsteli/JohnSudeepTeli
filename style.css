@@ -21,3 +21,6 @@ section#education table th {
 section#education table tr:nth-child(even) {
     background-color: #F5F5F5; /* Match the body's background color */
 }
+@media screen and (max-width: 768px) {
+    /* Styles for screens with a maximum width of 768px (e.g., mobile devices) */
+}
